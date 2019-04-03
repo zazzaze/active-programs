@@ -14,11 +14,7 @@ h1, h2, h3, h4, h5, p, ul {
 body {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-  width: 100%;
-=======
   font-family: Montserrat, sans-serif;
->>>>>>> f8a37207a18565a72a817ac7e092fc9ade3eee56
 }
 
 .button {
@@ -107,7 +103,6 @@ body {
   text-decoration: none;
   font-size: 1rem;
   text-align: center;
-  vertical-align: middle;
 }
 
 @media (min-width: 1050px) {
@@ -150,7 +145,6 @@ body {
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
 @media (min-width: 1050px) {
   .content {
     width: 60%;
@@ -167,6 +161,12 @@ body {
   }
   .content__headline {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 350px){
+  .content__headline {
+    font-size: 2rem;
   }
 }
 
@@ -202,11 +202,8 @@ body {
     text-align: left;
   }
   .burger {
-    display: block;
+    display: block
   }
-=======
-.about-container {
-  background-color: white;
 }
 
 .about-first {
@@ -224,6 +221,5 @@ body {
   border-bottom: 1px solid #a54586;
   font-weight: 400;
   line-height: 50px;
->>>>>>> f8a37207a18565a72a817ac7e092fc9ade3eee56
 }
 /*# sourceMappingURL=style.css.map */
