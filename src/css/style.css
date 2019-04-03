@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Общие правила*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13,7 +14,11 @@ h1, h2, h3, h4, h5, p, ul {
 body {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   width: 100%;
+=======
+  font-family: Montserrat, sans-serif;
+>>>>>>> f8a37207a18565a72a817ac7e092fc9ade3eee56
 }
 
 .button {
@@ -145,6 +150,7 @@ body {
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 @media (min-width: 1050px) {
   .content {
     width: 60%;
@@ -198,5 +204,26 @@ body {
   .burger {
     display: block;
   }
+=======
+.about-container {
+  background-color: white;
+}
+
+.about-first {
+  width: 90%;
+  margin: 100px auto 20px auto;
+  border-bottom: 1px solid #c8c8c8;
+  text-align: center;
+}
+
+.about-first p {
+  width: 80%;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  font-size: 2.5rem;
+  border-bottom: 1px solid #a54586;
+  font-weight: 400;
+  line-height: 50px;
+>>>>>>> f8a37207a18565a72a817ac7e092fc9ade3eee56
 }
 /*# sourceMappingURL=style.css.map */
