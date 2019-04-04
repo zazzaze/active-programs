@@ -38,7 +38,9 @@ body {
 
 /*Блок top*/
 .top {
-  background: url("../images/city.jpg") no-repeat center;
+  background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(0, 0, 0, 0.25)), to(transparent)), url("../images/city2.svg") no-repeat center -95vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 100%, transparent), url("../images/city2.svg") no-repeat center -95vh;
+  background-size: cover;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,11 +146,11 @@ body {
 .top .content {
   text-align: center;
   padding: 2rem 10%;
-  border: 2px solid #68E3E1;
+  border: 2px solid #79CED4;
 }
 
 .top .content__headline {
-  color: white;
+  color: #ffffff;
   margin-bottom: 10vh;
 }
 
