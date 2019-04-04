@@ -20,6 +20,7 @@
         position: absolute
         top: 0
         left: 0
+        z-index: 10
         &__logo
             width: auto
             height: 90%
@@ -136,6 +137,36 @@
     .burger
         display: block
 
+.popup
+    width: 100%
+    height: 100%
+    position: absolute
+    background-color: rgba(113,113,113, 0.7)
+    z-index: 100
 
+    .card
+        width: 30%
+        height: 70vh
+        margin: 15vh 35%
+        position: absolute
+        background-color: #AD4582
+        border-radius: 10px
+        text-align: center
+
+        &__headline
+            font-size: 2.5rem
+            margin-top: 10%
+
+        &__text
+            font-size: 1.5rem
+        
+        .form
+            width: 80%
+            height: auto
+            margin: 5% 10% 0
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: flex-start
 
             
