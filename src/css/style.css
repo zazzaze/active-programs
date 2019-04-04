@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, p, img {
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, p, ul, a {
+  font-family: 'Montserrat';
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -278,6 +282,69 @@ body {
 }
 
 /*Блок director-word*/
+h3 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 3rem auto 2rem auto;
+}
+
+.director-word {
+  margin: auto;
+  width: 90%;
+}
+
+.director-word h2 {
+  margin-bottom: 2rem;
+}
+
+.head {
+  margin: 0 auto 2rem auto;
+  border-bottom: 2px solid #79CED4;
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.first-part, .second-part {
+  width: 40%;
+}
+
+@media (max-width: 900px) {
+  .first-part, .second-part {
+    width: 70%;
+    margin: auto;
+  }
+  .text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.director {
+  margin-top: 2rem;
+}
+
+.director__container {
+  width: 70%;
+  display: inline-block;
+}
+
+.director p {
+  color: grey;
+}
+
+.director img {
+  display: inline-block;
+  width: 4rem;
+}
+
 /*Блок news*/
 .our-news {
   text-align: center;
