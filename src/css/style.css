@@ -198,6 +198,7 @@ body {
     background-color: #ffffff;
     -webkit-transition-duration: 1s;
             transition-duration: 1s;
+    padding-left: 0;
   }
   .navbar--mobile-open {
     -webkit-transform: translateY(7vh);
