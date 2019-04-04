@@ -38,8 +38,8 @@ body {
 
 /*Блок top*/
 .top {
-  background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(0, 0, 0, 0.25)), to(transparent)), url("../images/city2.svg") no-repeat center -95vh;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 100%, transparent), url("../images/city2.svg") no-repeat center -95vh;
+  background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(0, 0, 0, 0.25)), to(transparent)), url("../images/city.svg") no-repeat center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 100%, transparent), url("../images/city.svg") no-repeat center;
   background-size: cover;
   height: 100vh;
   display: -webkit-box;
@@ -453,6 +453,14 @@ h3 {
 
 .our-news__headline {
   font-size: 3rem;
+}
+
+.our-news__headline-link {
+  color: #000000;
+}
+
+.our-news__headline-link:hover {
+  color: #3B3B3B;
 }
 
 .news {
