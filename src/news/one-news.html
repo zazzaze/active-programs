@@ -10,6 +10,22 @@
 </head>
 <body>
 
+    <div class="popup">
+        <div class="popup-card">
+            <h2 class="card__headline">Оставьте заявку</h2>
+            <p class="card__text">и мы вам перезвоним.</p>
+            <form class="form" method="POST">
+                <input class="form__input" type="text" placeholder="Ваше имя">
+                <input class="form__input" type="tel" placeholder="Ваш номер телефона">
+                <label class="form__checkbox">
+                <input type="checkbox" name="checkbox">
+                Даю согласие на обработку персональных данных</label>
+                <button class="button form__button" type="submit">Оставить заявку</button>  
+            </form>
+            <button class="button button__close">Закрыть форму</button>
+        </div>
+    </div>
+
     <section class="top">
 
         <header class="header">
@@ -65,7 +81,7 @@
             Share your mission with the world — and blow your customers away.
         </p>
         </div>
-        <a href="#" class="something__button headline">Start now</a>
+        <a href="#" class="content__button headline">Start now</a>
     </section>
 
     <footer class="footer">
@@ -79,5 +95,6 @@
     </footer>
 
     <script src="../js/menu.js"></script>
+    <script src="../js/popup.js"></script>
 </body>
 </html>

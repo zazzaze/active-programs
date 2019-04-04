@@ -140,12 +140,12 @@
 .popup
     width: 100%
     height: 100%
-    position: absolute
+    position: fixed
     background-color: rgba(113,113,113, 0.7)
     z-index: 100
+    display: none
 
-    .card
-        width: 30%
+    &-card
         height: 70vh
         margin: 15vh 35%
         position: absolute
@@ -153,20 +153,51 @@
         border-radius: 10px
         text-align: center
 
-        &__headline
-            font-size: 2.5rem
-            margin-top: 10%
+.card__headline
+    font-size: 2.5rem
+    margin-top: 10%
+    color: white
 
-        &__text
-            font-size: 1.5rem
-        
-        .form
-            width: 80%
-            height: auto
-            margin: 5% 10% 0
-            display: flex
-            flex-direction: column
-            justify-content: center
-            align-items: flex-start
+.card__text
+    font-size: 1.5rem
+    color: white
+
+.form
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+
+    &__input
+        margin-top: 10%
+        width: 70%
+        padding: 1em
+        border: none
+
+    &__button
+        background-color: #86E3EA
+        margin-top: 5em
+        box-shadow: 0 0 1px black
+        border-radius: 5px
+        &:hover
+            background-color: #6FBCC1
+
+    &__checkbox
+        margin-top: 2em
+        color: white
+
+.button__close
+    background-color: #ffffff
+    margin-top: 7em
+    border-radius: 5px
+
+@media (min-width: 1041px)
+    .popup-card
+        width: 30%
+
+@media (max-width: 1040px)
+    .popup-card
+        width: 80%
+        margin-left: 10%
 
             

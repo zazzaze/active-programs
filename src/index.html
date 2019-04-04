@@ -6,19 +6,23 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Arimo|Noto+Serif+TC" rel="stylesheet">
-        <title>Document</title>
+        <title>Активные Программы</title>
     </head>
     <body>
 
         <div class="popup">
-            <div class="card">
+            <div class="popup-card">
                 <h2 class="card__headline">Оставьте заявку</h2>
                 <p class="card__text">и мы вам перезвоним.</p>
                 <form class="form" method="POST">
                     <input class="form__input" type="text" placeholder="Ваше имя">
-                    <input class="form_input" type="tel" placeholder="Ваш номер телефона">
-                    <button class="button" type="submit">Оставить заявку</button>  
+                    <input class="form__input" type="tel" placeholder="Ваш номер телефона">
+                    <label class="form__checkbox">
+                    <input type="checkbox" name="checkbox">
+                    Даю согласие на обработку персональных данных</label>
+                    <button class="button form__button" type="submit">Оставить заявку</button>  
                 </form>
+                <button class="button button__close">Закрыть форму</button>
             </div>
         </div>
         
@@ -178,5 +182,6 @@
             </footer>
         
     <script src="js/menu.js"></script>
+    <script src="js/popup.js"></script>
     </body>
 </html>
