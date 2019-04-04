@@ -110,6 +110,7 @@ body {
   font-size: 1rem;
   text-align: center;
   vertical-align: middle;
+  font-family: 'Arimo', sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media (min-width: 1050px) {
@@ -233,6 +234,8 @@ body {
   border-bottom: 1px solid #a54586;
   font-weight: 400;
   line-height: 50px;
+  font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif;
+  color: #4a4a4a;
 }
 
 .about-first h3 {
@@ -257,6 +260,8 @@ body {
 .flex-things p {
   font-size: 1.5rem;
   text-decoration: underline;
+  font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif;
+  color: #4a4a4a;
 }
 
 .thing {
@@ -336,10 +341,12 @@ body {
   margin-top: 1.5vh;
   font-size: 1.3rem;
   color: #A4A4A4;
+  font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif;
 }
 
 .news__block-date {
   color: #A4A4A4;
+  font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 900px) {
