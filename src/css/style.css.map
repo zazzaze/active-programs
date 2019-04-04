@@ -5,6 +5,7 @@
         "../sass/style.sass",
         "../sass/blocks/top/_top.sass",
         "../sass/blocks/about-us/_about_us.sass",
+        "../sass/blocks/director-word/_director-word.sass",
         "../sass/blocks/news/_news.sass",
         "../sass/blocks/footer/_footer.sass"
     ],
