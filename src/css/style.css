@@ -19,6 +19,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .button {
@@ -592,10 +593,12 @@ h3 {
   list-style: none;
   font-size: 1.2rem;
   margin-top: 0.5rem;
+  font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif;
 }
 
 .footer .info__point a {
   color: white;
+  font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 950px) {
