@@ -345,9 +345,6 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -363,6 +360,10 @@ body {
   text-align: center;
   width: 30%;
   margin-top: 2rem;
+}
+
+.thing img {
+  width: 8rem;
 }
 
 @media (max-width: 900px) {
