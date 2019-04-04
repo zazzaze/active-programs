@@ -199,8 +199,8 @@ body {
             transition-duration: 1s;
   }
   .navbar--mobile-open {
-    -webkit-transform: translateY(10vh);
-            transform: translateY(10vh);
+    -webkit-transform: translateY(7vh);
+            transform: translateY(7vh);
   }
   .navbar--mobile-close {
     -webkit-transform: translateY(-50vh);
@@ -297,6 +297,7 @@ h3 {
 .director-word {
   margin: auto;
   width: 90%;
+  margin-top: 10vh;
 }
 
 .director-word h2 {
@@ -382,17 +383,31 @@ h3 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  margin-bottom: 10vh;
 }
 
 .news__block {
-  height: auto;
-  width: 33%;
   text-align: left;
 }
 
-.news__block img {
+.news__block:first-child .news__block-image {
+  background-image: url("../images/programmer.jpeg");
+}
+
+.news__block:nth-child(2n) .news__block-image {
+  background-image: url("../images/programmer-2.jpg");
+}
+
+.news__block:last-child .news__block-image {
+  background-image: url("../images/programmer-3.jpg");
+}
+
+.news__block-image {
   width: 100%;
-  height: 40%;
+  height: 60%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .news__block-content h3 {
@@ -403,6 +418,10 @@ h3 {
 
 .news__block-content h3 a {
   color: black;
+}
+
+.news__block-content h3 a:hover {
+  color: #2F2F2F;
 }
 
 .news__block-content p {
@@ -417,9 +436,31 @@ h3 {
   font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 900px) {
+.news__block-link {
+  color: #000000;
+  font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+
+.news__block-link:hover {
+  color: #2F2F2F;
+}
+
+@media (min-width: 1201px) {
+  .news__block {
+    height: 40vh;
+    width: 30%;
+  }
+}
+
+@media (max-width: 1200px) {
   .news__block {
     width: 100%;
+    height: 100vh;
+    margin-bottom: 10vh;
+  }
+  .news__block-content h3 {
+    font-size: 1.5rem;
   }
 }
 

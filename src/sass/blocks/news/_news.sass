@@ -16,16 +16,27 @@
     margin-top: 2vh
     padding-top: 5vh
     flex-wrap: wrap
-    align-items: flex-start;
+    align-items: flex-start
+    margin-bottom: 10vh
 
     &__block
-        height: auto
-        width: 33%
         text-align: left
+        &:first-child
+            .news__block-image
+                background-image: url('../images/programmer.jpeg')
+        &:nth-child(2n)
+            .news__block-image
+                background-image: url('../images/programmer-2.jpg')
+        &:last-child
+            .news__block-image
+                background-image: url('../images/programmer-3.jpg')
 
-        img
+        &-image
             width: 100%
-            height: 40%
+            height: 60%
+            background-position: center center
+            background-repeat: no-repeat
+            background-size: cover
 
         &-content
             h3
@@ -35,6 +46,8 @@
 
                 a
                     color: black
+                    &:hover
+                        color: #2F2F2F
             p
                 margin-top: 1.5vh
                 font-size: 1.3rem
@@ -45,6 +58,24 @@
             color: #A4A4A4
             font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif
 
-@media (max-width: 900px)
+        &-link
+            color: #000000
+            font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif
+            font-size: 1.3rem
+            &:hover
+                color: #2F2F2F
+
+@media (min-width: 1201px)
+    .news__block
+        height: 40vh
+        width: 30%
+
+@media (max-width: 1200px)
     .news__block
         width: 100%
+        height: 100vh
+        margin-bottom: 10vh
+
+        &-content
+            h3
+                font-size: 1.5rem

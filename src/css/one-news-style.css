@@ -148,8 +148,8 @@ margin: 0;
                 transition-duration: 1s;
     }
     .navbar--mobile-open {
-        -webkit-transform: translateY(10vh);
-                transform: translateY(10vh);
+        -webkit-transform: translateY(8vh);
+                transform: translateY(8vh);
     }
     .navbar--mobile-close {
         -webkit-transform: translateY(-50vh);
