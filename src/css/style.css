@@ -454,7 +454,8 @@ body {
 h3 {
   font-size: 3rem;
   text-align: center;
-  margin: 3rem auto 2rem auto;
+  margin: 0 auto 2rem auto;
+  padding-top: 3rem;
 }
 
 .director-word {
@@ -519,7 +520,7 @@ h3 {
 /*Блок news*/
 .our-news {
   text-align: center;
-  padding: 10vh 0;
+  padding: 8vh 0;
 }
 
 .our-news__headline {
@@ -687,12 +688,10 @@ iframe {
   list-style: none;
   font-size: 1.2rem;
   margin-top: 0.5rem;
-  font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif;
 }
 
 .footer .info__point a {
   color: white;
-  font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 950px) {

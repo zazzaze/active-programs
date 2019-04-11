@@ -4,7 +4,7 @@
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
-            top-=90;
+            top-=0;
         $('body,html').animate({scrollTop: top}, 1500);
     });
 });
