@@ -379,8 +379,9 @@ body {
 
 .thing {
   text-align: center;
-  width: 30%;
+  width: auto;
   margin-top: 2rem;
+  padding: 0 2rem 0 2rem;
 }
 
 .thing img {

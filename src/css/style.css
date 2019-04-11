@@ -342,7 +342,7 @@ body {
 
 .about-first {
   width: 90%;
-  margin: 100px auto 20px auto;
+  margin: 0 auto 20px auto;
   border-bottom: 2px solid #79CED4;
   text-align: center;
 }
@@ -361,8 +361,8 @@ body {
 
 .about-first h3 {
   font-size: 3rem;
-  margin-bottom: 2vh;
-  margin-top: 1vh;
+  margin: 0 0 2vh 0;
+  padding-top: 4vh;
 }
 
 .flex-things {
