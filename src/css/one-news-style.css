@@ -148,12 +148,12 @@ margin: 0;
                 transition-duration: 1s;
     }
     .navbar--mobile-open {
-        -webkit-transform: translateY(8vh);
-                transform: translateY(8vh);
+        -webkit-transform: translateY(10vh);
+                transform: translateY(10vh);
     }
     .navbar--mobile-close {
-        -webkit-transform: translateY(-50vh);
-                transform: translateY(-50vh);
+        -webkit-transform: translateY(-100vh);
+                transform: translateY(-100vh);
     }
     .navbar--mobile .navbar__point {
         display: block;
