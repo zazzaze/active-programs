@@ -114,6 +114,7 @@
         &--mobile
             display: block
             position: absolute
+            background-image: linear-gradient(to left bottom, #B86093, #6FBCC1)
             top: 0
             left: 0
             width: 100vw
@@ -121,12 +122,12 @@
             background-color: #ffffff
             transition-duration: 1s 
             padding-left: 0
-   
+            margin: 0
             &-open
-                transform: translateY(7vh)
+                transform: translateY(-100vh)
 
             &-close
-                transform: translateY(-50vh)
+                transform: translateY(10vh)
 
             .navbar__point
                 display: block
@@ -135,6 +136,9 @@
                 border-bottom: 1px solid #79CED4
                 padding: 2em 0
                 text-align: left
+
+        &__link
+            color: white
 
     .burger
         display: block

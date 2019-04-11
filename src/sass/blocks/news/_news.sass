@@ -26,19 +26,20 @@
 
     &__block
         text-align: left
+        heihgt: auto
         &:first-child
             .news__block-image
-                background-image: url('../images/programmer.jpeg')
+                background-image: url('../images/team.jpg')
         &:nth-child(2n)
             .news__block-image
-                background-image: url('../images/programmer-2.jpg')
+                background-image: url('../images/programmer.jpeg')
         &:last-child
             .news__block-image
-                background-image: url('../images/programmer-3.jpg')
+                background-image: url('../images/ekbcup.jpg')
 
         &-image
             width: 100%
-            height: 60%
+            height: 15rem
             background-position: center center
             background-repeat: no-repeat
             background-size: cover
@@ -58,6 +59,7 @@
                 font-size: 1.3rem
                 color: #A4A4A4
                 font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif
+                heihgt: auto
         
         &-date
             color: #A4A4A4
@@ -72,15 +74,16 @@
 
 @media (min-width: 1201px)
     .news__block
-        height: 40vh
         width: 30%
 
 @media (max-width: 1200px)
     .news__block
         width: 100%
-        height: 100vh
         margin-bottom: 10vh
 
         &-content
             h3
                 font-size: 1.5rem
+
+        &-image
+            height: 30rem
