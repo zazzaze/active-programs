@@ -78,7 +78,7 @@ body {
 
 .top .header__logo {
   width: auto;
-  height: 3rem;
+  height: 90%;
 }
 
 .top .burger {
@@ -194,8 +194,7 @@ body {
   .navbar--mobile {
     display: block;
     position: absolute;
-    background-image: -webkit-gradient(linear, right top, left bottom, from(#B86093), to(#6FBCC1));
-    background-image: linear-gradient(to left bottom, #B86093, #6FBCC1);
+    background: #ffffff;
     top: 0;
     left: 0;
     width: 100vw;
@@ -237,13 +236,15 @@ body {
   background-color: rgba(113, 113, 113, 0.7);
   z-index: 100;
   display: none;
+  top: 0;
+  left: 0;
 }
 
 .popup-card {
   height: 70vh;
   margin: 15vh 35%;
   position: absolute;
-  background-color: #AD4582;
+  background-color: #ffffff;
   border-radius: 10px;
   text-align: center;
 }
@@ -251,7 +252,7 @@ body {
 .card__headline {
   font-size: 2.5rem;
   margin-top: 10%;
-  color: white;
+  color: #000000;
 }
 
 .card__text {
@@ -279,7 +280,8 @@ body {
   margin-top: 10%;
   width: 70%;
   padding: 1em;
-  border: none;
+  border: transparent;
+  border-botttom: 5px solid #AD4582;
 }
 
 .form__button {
@@ -361,8 +363,8 @@ body {
 
 .about-first h3 {
   font-size: 3rem;
-  margin: 0 0 4vh 0;
-  padding: 7vh 0 0 0;
+  margin: 0 0 2vh 0;
+  padding-top: 4vh;
 }
 
 .flex-things {
@@ -402,7 +404,7 @@ body {
   }
   .thing {
     width: auto;
-    margin: 2rem auto 0 auto;
+    margin: auto;
     padding: 0 2rem 0 2rem;
   }
 }
@@ -417,12 +419,11 @@ h3 {
 .director-word {
   margin: auto;
   width: 90%;
-  margin-top: 8vh;
+  margin-top: 10vh;
 }
 
 .director-word h2 {
   margin-bottom: 2rem;
-  text-align: center;
 }
 
 .head {
