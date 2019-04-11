@@ -379,9 +379,8 @@ body {
 
 .thing {
   text-align: center;
-  width: auto;
+  width: 30%;
   margin-top: 2rem;
-  padding: 0 2rem 0 2rem;
 }
 
 .thing img {
@@ -396,8 +395,9 @@ body {
             flex-direction: column;
   }
   .thing {
-    width: 60%;
+    width: auto;
     margin: auto;
+    padding: 0 2rem 0 2rem;
   }
 }
 
