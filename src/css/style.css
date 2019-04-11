@@ -243,12 +243,13 @@ body {
 }
 
 .popup-card {
-  height: 70vh;
+  height: auto;
   margin: 15vh 35%;
   position: absolute;
   background-color: #ffffff;
   border-radius: 10px;
   text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 .card__headline {
@@ -326,8 +327,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  top: 1em;
-  right: 1em;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  top: 0;
+  right: 0;
 }
 
 .button__close:hover {
@@ -349,7 +352,7 @@ body {
           transform: rotate(-45deg);
 }
 
-@media (min-width: 1041px) {
+@media (min-width: 1040px) {
   .popup-card {
     width: 30%;
   }
@@ -363,15 +366,6 @@ body {
 }
 
 @media (max-width: 320px) {
-  .card__headline {
-    font-size: 1.5rem;
-    margin-top: 3rem;
-    color: black;
-  }
-  .card__text {
-    font-size: 1rem;
-    color: black;
-  }
   .popup-card {
     height: 90vh;
     margin: 5vh 10%;
