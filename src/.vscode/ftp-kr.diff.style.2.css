@@ -281,7 +281,8 @@ body {
   width: 70%;
   padding: 1em;
   border: transparent;
-  border-botttom: 5px solid #AD4582;
+  border-bottom: 1px solid #AD4582;
+  font-size: 1rem;
 }
 
 .form__button {
