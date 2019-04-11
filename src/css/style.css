@@ -194,8 +194,8 @@ body {
   .navbar--mobile {
     display: block;
     position: absolute;
-    background-image: -webkit-gradient(linear, right top, left bottom, from(#B86093), to(#6FBCC1));
-    background-image: linear-gradient(to left bottom, #B86093, #6FBCC1);
+    background-image: -webkit-gradient(linear, right top, left bottom, from(B7739A), to(#6FBCC1));
+    background-image: linear-gradient(to left bottom, B7739A, #6FBCC1);
     top: 0;
     left: 0;
     width: 100vw;
