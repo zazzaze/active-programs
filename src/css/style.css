@@ -365,13 +365,6 @@ body {
   }
 }
 
-@media (max-width: 320px) {
-  .popup-card {
-    height: 90vh;
-    margin: 5vh 10%;
-  }
-}
-
 /*Блок about-us*/
 .about-container {
   background-color: white;
