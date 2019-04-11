@@ -1,5 +1,5 @@
 {
-  "ftp://10.1.0.6@c221": {
+  "ftp://10.1.0.6:21@c221": {
     ".htaccess": {
       "type": "-",
       "size": 0,
@@ -10,9 +10,9 @@
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 12212,
+      "size": 13652,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     },
     "js": {},
     "news": {},
