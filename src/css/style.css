@@ -250,6 +250,8 @@ body {
   border-radius: 10px;
   text-align: center;
   padding-bottom: 1.5rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .card__headline {
@@ -310,6 +312,7 @@ body {
 .form__checkbox {
   margin-top: 2em;
   color: #000000;
+  display: inline-block;
 }
 
 .button__close {
@@ -362,6 +365,12 @@ body {
   .popup-card {
     width: 80%;
     margin-left: 10%;
+  }
+}
+
+@media (max-width: 320px) {
+  .popup-card {
+    margin: 5vh 10%;
   }
 }
 
@@ -611,7 +620,7 @@ h3 {
   color: #2F2F2F;
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1200px) {
   .news__block {
     width: 30%;
   }
@@ -629,7 +638,7 @@ h3 {
     font-size: 1.5rem;
   }
   .news__block-image {
-    height: 30rem;
+    height: 18rem;
   }
 }
 
