@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animation.css">
         <link href="https://fonts.googleapis.com/css?family=Arimo|Noto+Serif+TC" rel="stylesheet">
         <title>Активные Программы</title>
     </head>
@@ -32,7 +33,7 @@
         
         <section class="top">
 
-            <header class="header">
+            <header class="header" id="menu-header">
                 <a href="index.html">
                     <img src="images/logo.png" alt="Активные программы" class="header__logo">
                 </a>
@@ -110,7 +111,7 @@
             </div>
         </section>
 
-        <section class="director-word">
+        <section class="director-word fadeInUp wow">
                 <div class="head">
                     <h3 id="director-word">О нас</h3>
                 </div>
@@ -158,7 +159,7 @@
                     </div>
             </section>
 
-        <section class="our-news" id="our-news">
+        <section class="our-news fadeInUp wow" id="our-news">
             <h2 class="our-news__headline"><a href="news/all-news.html" class="our-news__headline-link">Новости компании</a></h2>
             <div class="news">
                 <div class="news__block">
@@ -191,7 +192,7 @@
             </div>
         </section>
 
-        <section class="map">
+        <section class="map fadeInUp wow">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2182.2469455033993!2d60.61675531611983!3d56.84170791494999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c16e865427ce73%3A0xb6379f2a92ab1306!2z0YPQuy4g0JvRg9C90LDRh9Cw0YDRgdC60L7Qs9C-LCAxMzAsIDE4LCDQldC60LDRgtC10YDQuNC90LHRg9GA0LMsINCh0LLQtdGA0LTQu9C-0LLRgdC60LDRjyDQvtCx0LsuLCA2MjAwNzU!5e0!3m2!1sru!2sru!4v1554385205205!5m2!1sru!2sru" allowfullscreen></iframe>
 
         </section>
@@ -206,6 +207,10 @@
         </footer>
         
     <script src="js/menu.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="jquery/jquery.3.3.1.min.js"></script>
     <script src="js/popup.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
     </body>
 </html>

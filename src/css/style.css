@@ -39,8 +39,8 @@ body {
 
 /*Блок top*/
 .top {
-  background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(0, 0, 0, 0.25)), to(transparent)), url("../images/city.svg") no-repeat center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 100%, transparent), url("../images/city.svg") no-repeat center;
+  background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(0, 0, 0, 0.25)), to(transparent)), url("../images/city.jpg") no-repeat center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 100%, transparent), url("../images/city.jpg") no-repeat center;
   background-size: cover;
   height: 100vh;
   display: -webkit-box;
@@ -104,10 +104,12 @@ body {
   width: 10em;
   height: 50%;
   text-transform: uppercase;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .top .navbar__point:hover {
-  border-bottom: 3px solid #B86093;
+  border-bottom: 1px solid #B86093;
 }
 
 .top .navbar__link {
