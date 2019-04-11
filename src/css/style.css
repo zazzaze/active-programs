@@ -402,7 +402,7 @@ body {
   }
   .thing {
     width: auto;
-    margin: auto;
+    margin: 2rem auto 0 auto;
     padding: 0 2rem 0 2rem;
   }
 }
