@@ -1,6 +1,5 @@
  $(document).ready(function(){
     $("#menu-header").on("click","a", function (event) {
-        alert();
         document.querySelector('.navbar--mobile').classList.add('navbar--mobile-close');
         event.preventDefault();
         var id  = $(this).attr('href'),
