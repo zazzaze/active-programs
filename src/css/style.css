@@ -214,14 +214,8 @@ body {
             transition-duration: 1s;
     padding-left: 0;
     margin: 0;
-  }
-  .navbar--mobile-open {
     -webkit-transform: translateY(-100vh);
             transform: translateY(-100vh);
-  }
-  .navbar--mobile-close {
-    -webkit-transform: translateY(10vh);
-            transform: translateY(10vh);
   }
   .navbar--mobile .navbar__point {
     display: block;
@@ -339,6 +333,8 @@ body {
           align-items: center;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  top: 0;
+  right: 0;
 }
 
 .button__close:hover {

@@ -3,12 +3,12 @@ const menuButton = document.querySelector('.burger'),
 let menu = document.querySelector('.navbar--mobile');
 
 menuButton.addEventListener('click', () => {
-    console.log(menu.classList.contains('navbar--mobile-close'))
+    let height = header.offsetHeight;
     if (menu.classList.contains('navbar--mobile-close')){
         menu.classList.remove('navbar--mobile-close');
-    } 
-    else {
-        menu.classList.add('navbar--mobile-close');  
+        menu.style.transform = 'translateY(' + height + 'px)';
+    } else {
+        menu.classList.add('navbar--mobile-close');
+        menu.style.transform = menu.style.transform = 'translateY(-100vh)';
     }
-    
 })
