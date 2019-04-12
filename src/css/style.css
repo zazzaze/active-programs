@@ -81,6 +81,14 @@ body {
   height: 3rem;
 }
 
+.top .header__info a {
+  display: block;
+}
+
+.top .header__info-mail {
+  margin-top: 5px;
+}
+
 .top .burger {
   width: 2.5em;
   height: auto;
@@ -137,6 +145,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 0;
   }
   .top .navbar--mobile {
     display: none;
