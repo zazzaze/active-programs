@@ -577,7 +577,6 @@ body {
 
 .news__block-image {
   width: 100%;
-  height: 15rem;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -643,6 +642,12 @@ body {
   }
   .news__block-image {
     height: 18rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .news__block-image {
+    height: 12rem;
   }
 }
 
