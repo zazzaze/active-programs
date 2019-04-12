@@ -745,6 +745,7 @@ iframe {
 .cookie__button {
   color: white;
   height: 3rem;
+  width: 10%;
   padding: 0;
   outline: none;
 }
