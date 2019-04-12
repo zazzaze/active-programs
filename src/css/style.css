@@ -84,7 +84,7 @@ body {
   border-bottom: 3px solid #79CED4;
   background: #ffffff;
   position: absolute;
-  top: 0;
+  top: 2rem;
   left: 0;
   z-index: 10;
 }
@@ -94,11 +94,7 @@ body {
   height: 3rem;
 }
 
-.top .header__info a {
-  display: block;
-}
-
-.top .header__info-mail {
+.top .header__logo-mail {
   margin-top: 5px;
 }
 
@@ -184,6 +180,15 @@ body {
   color: white;
   font-size: 1rem;
   text-transform: uppercase;
+}
+
+.pre-header {
+  position: absolute;
+  width: 100%;
+  height: 2rem;
+  background-color: #cdddec;
+  top: 0;
+  left: 0;
 }
 
 @media (min-width: 1050px) {

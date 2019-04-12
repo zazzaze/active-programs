@@ -6,9 +6,8 @@
     justify-content: center
     align-items: center
     background-attachment: fixed
-    
 
-
+        
     .header
         width: 100%
         padding: 0.8rem 2rem
@@ -18,17 +17,13 @@
         border-bottom: 3px solid #79CED4
         background: #ffffff
         position: absolute
-        top: 0
+        top: 2rem // смотри pre-header, он ниже
         left: 0
         z-index: 10
 
         &__logo
             width: auto
             height: 3rem 
-
-        &__info
-            a
-                display: block //LOOK
 
             &-mail
                 margin-top: 5px
@@ -99,6 +94,17 @@
             color: white
             font-size: 1rem
             text-transform: uppercase
+
+.pre-header
+    position: absolute
+    width: 100%
+    height: 2rem
+    background-color: #cdddec
+    top: 0
+    left: 0
+
+
+
 
 @media (min-width: 1050px)
     .content
