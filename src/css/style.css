@@ -698,6 +698,14 @@ iframe {
   height: auto;
 }
 
+.footer__something {
+  text-align: center;
+}
+
+.footer__something-metric {
+  margin-top: 10px;
+}
+
 @media (max-width: 950px) {
   .footer {
     -webkit-box-pack: center;
