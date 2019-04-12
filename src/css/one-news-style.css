@@ -428,19 +428,6 @@ background-color: #000000;
         transform: rotate(-45deg);
 }
 
-@media (min-width: 1041px) {
-    .popup-card {
-        width: 30%;
-    }
-}
-
-@media (max-width: 1040px) {
-    .popup-card {
-        width: 80%;
-        margin-left: 10%;
-    }
-}
-
 @media (max-width: 320px) {
     .card__headline {
         font-size: 1.5rem;
@@ -450,9 +437,5 @@ background-color: #000000;
     .card__text {
         font-size: 1rem;
         color: black;
-    }
-    .popup-card {
-        height: 90vh;
-        margin: 5vh 10%;
     }
 }
