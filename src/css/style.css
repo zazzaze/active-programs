@@ -194,6 +194,14 @@ body {
   z-index: 11;
 }
 
+.pre-header__info {
+  text-align: right;
+}
+
+.pre-header__info a {
+  margin-right: 2rem;
+}
+
 @media (min-width: 1050px) {
   .content {
     width: 60%;
