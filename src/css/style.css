@@ -253,7 +253,6 @@ body {
 .popup-card {
   height: auto;
   margin: 15vh 35%;
-  position: absolute;
   background-color: #ffffff;
   border-radius: 10px;
   text-align: center;
@@ -264,7 +263,7 @@ body {
 
 .card__headline {
   font-size: 2.5rem;
-  margin-top: 10%;
+  padding: 1rem;
   color: #000000;
 }
 
@@ -325,7 +324,6 @@ body {
 
 .button__close {
   background-color: rgba(0, 0, 0, 0.1);
-  position: absolute;
   font-family: 'Arimo', sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height: 35px;
   width: 35px;
@@ -351,7 +349,7 @@ body {
 .button__close--line {
   display: block;
   position: absolute;
-  width: 70%;
+  width: 30px;
   height: 1px;
   background-color: #000000;
   -webkit-transform: rotate(45deg);

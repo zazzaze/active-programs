@@ -5,7 +5,7 @@ let popup = document.querySelector('.popup'),
 
 openPopup.addEventListener('click', () => {
     popup.style.display = 'block';
-    body.style.overflow = 'hidden';
+    // body.style.overflow = 'hidden';
 });
 
 closePopup.addEventListener('click', () => {
