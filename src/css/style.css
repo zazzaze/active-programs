@@ -705,4 +705,35 @@ iframe {
             justify-content: center;
   }
 }
+
+/*Блок cookie*/
+.cookie {
+  width: 100vw;
+  padding: 0.5rem 2vw;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cookie__text {
+  color: white;
+}
+
+.cookie__button {
+  color: white;
+  height: 3rem;
+  padding: 0;
+  outline: none;
+}
 /*# sourceMappingURL=style.css.map */
