@@ -1,0 +1,22 @@
+{
+  "ftp://10.1.0.6@c221": {
+    ".htaccess": {
+      "type": "-",
+      "size": 0,
+      "lmtime": 0,
+      "modified": false
+    },
+    "css": {},
+    "images": {},
+    "index.html": {
+      "type": "-",
+      "size": 13904,
+      "lmtime": 0,
+      "modified": false
+    },
+    "js": {},
+    "news": {},
+    "sass": {}
+  },
+  "$version": 1
+}

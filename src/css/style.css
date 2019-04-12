@@ -252,7 +252,7 @@ body {
 
 .popup-card {
   height: auto;
-  margin: 15vh 35%;
+  margin: 15vh auto;
   background-color: #ffffff;
   border-radius: 10px;
   text-align: center;
@@ -370,7 +370,6 @@ body {
 @media (max-width: 1040px) {
   .popup-card {
     width: 80%;
-    margin-left: 10%;
   }
 }
 
@@ -422,7 +421,6 @@ body {
 
 .flex-things p {
   font-size: 1.5rem;
-  text-decoration: underline;
   font-family: 'Noto Serif TC', serif, Arial, Helvetica, sans-serif;
   color: #4a4a4a;
 }
@@ -452,17 +450,16 @@ body {
 }
 
 /*Блок director-word*/
-h3 {
+.director-word h3 {
   font-size: 3rem;
   text-align: center;
   margin: 0 auto 2rem auto;
-  padding-top: 3rem;
 }
 
 .director-word {
   margin: auto;
   width: 90%;
-  margin-top: 8vh;
+  padding: 3rem 0;
 }
 
 .director-word h2 {
