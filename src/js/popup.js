@@ -8,7 +8,9 @@ openPopup.addEventListener('click', () => {
     // body.style.overflow = 'hidden';
 });
 
-closePopup.addEventListener('click', () => {
-    popup.style.display = 'none';
-    body.style.overflow = '';
-});
+popup.addEventListener('click', (evt) => {
+    if ((evt.target.closest('.popup-card') == null) || (evt.target.closest('.button__close'))){
+        popup.style.display = 'none';
+        body.style.overflow = '';
+    }
+})

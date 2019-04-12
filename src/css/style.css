@@ -565,7 +565,7 @@ h3 {
 
 .news__block {
   text-align: left;
-  heihgt: auto;
+  height: auto;
 }
 
 .news__block:first-child .news__block-image {
