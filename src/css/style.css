@@ -324,6 +324,7 @@ body {
 
 .button__close {
   background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
   font-family: 'Arimo', sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height: 35px;
   width: 35px;
@@ -338,8 +339,6 @@ body {
           align-items: center;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  top: 0;
-  right: 0;
 }
 
 .button__close:hover {
@@ -383,6 +382,7 @@ body {
 /*Блок about-us*/
 .about-container {
   background-color: white;
+  padding: 7vh 0;
 }
 
 .about-first {
@@ -407,7 +407,7 @@ body {
 .about-first h3 {
   font-size: 3rem;
   margin: 0 0 4vh 0;
-  padding: 7vh 0 0 0;
+  padding: 0;
 }
 
 .flex-things {
