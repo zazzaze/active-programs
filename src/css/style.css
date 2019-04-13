@@ -433,6 +433,8 @@ body {
   right: 0;
   bottom: 0;
   z-index: 100000;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .load {
