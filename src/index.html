@@ -136,6 +136,7 @@
         </section>
 
         <section class="director-word fadeInUp wow">
+            <div class="director-word__wrapper">
                 <div class="head">
                     <h3 id="director-word">О нас</h3>
                 </div>
@@ -181,6 +182,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </section>
 
         <section class="our-news fadeInUp wow" id="our-news">
@@ -247,6 +249,16 @@
     <script src="js/scroll.js"></script>
     <script src="js/cookie.js"></script>
     <script src="js/loader.js"></script>
-    <script>new WOW().init();</script>
+    <script>
+        wow = new WOW(
+        {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       true,       // default
+        live:         true        // default
+    }
+    )
+    new WOW().init();</script>
     </body>
 </html>
