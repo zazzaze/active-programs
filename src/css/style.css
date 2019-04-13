@@ -53,8 +53,6 @@ body {
 
 /*Блок top*/
 .top {
-  background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(0, 0, 0, 0.25)), to(transparent)), url("../images/city.jpg") no-repeat center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 100%, transparent), url("../images/city.jpg") no-repeat center;
   background-size: cover;
   height: 100vh;
   display: -webkit-box;
@@ -66,7 +64,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .top .header {
@@ -175,6 +173,18 @@ body {
   color: white;
   font-size: 1rem;
   text-transform: uppercase;
+  font-family: 'Open Sans';
+}
+
+.fixed-background {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(0, 0, 0, 0.25)), to(transparent)), url("../images/city.jpg") no-repeat center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 100%, transparent), url("../images/city.jpg") no-repeat center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
 }
 
 .pre-header {
@@ -433,9 +443,90 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  z-index: 1000;
-  display: none;
-  display-opacity: 1;
+  z-index: 100000;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.load {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+}
+
+.load hr {
+  border: 0;
+  margin: 0;
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-animation: spin 2s ease infinite;
+          animation: spin 2s ease infinite;
+}
+
+.load :first-child {
+  background: #19A68C;
+  -webkit-animation-delay: -1.5s;
+          animation-delay: -1.5s;
+}
+
+.load :nth-child(2) {
+  background: #F63D3A;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+
+.load :nth-child(3) {
+  background: #FDA543;
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s;
+}
+
+.load :last-child {
+  background: #193B48;
+}
+
+@-webkit-keyframes spin {
+  0%, 100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  25% {
+    -webkit-transform: translate(160%);
+            transform: translate(160%);
+  }
+  50% {
+    -webkit-transform: translate(160%, 160%);
+            transform: translate(160%, 160%);
+  }
+  75% {
+    -webkit-transform: translate(0, 160%);
+            transform: translate(0, 160%);
+  }
+}
+
+@keyframes spin {
+  0%, 100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  25% {
+    -webkit-transform: translate(160%);
+            transform: translate(160%);
+  }
+  50% {
+    -webkit-transform: translate(160%, 160%);
+            transform: translate(160%, 160%);
+  }
+  75% {
+    -webkit-transform: translate(0, 160%);
+            transform: translate(0, 160%);
+  }
 }
 
 /*Блок about-us*/
