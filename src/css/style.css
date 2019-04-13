@@ -45,6 +45,11 @@ body {
   cursor: pointer;
 }
 
+.btn-top {
+  display: none;
+  position: fixed;
+}
+
 @media (max-width: 720px) {
   .button {
     width: 70%;
