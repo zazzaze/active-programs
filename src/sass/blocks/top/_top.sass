@@ -1,5 +1,5 @@
 .top
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 100%, transparent), url('../images/city.jpg') no-repeat center 
+    // background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 100%, transparent), url('../images/city.jpg') no-repeat center 
     background-size: cover
     height: 100vh
     display: flex
@@ -92,6 +92,15 @@
             font-size: 1rem
             text-transform: uppercase
             font-family: 'Open Sans'
+
+.fixed-background
+    position: fixed
+    top: 0
+    z-index: -1
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 100%, transparent), url('../images/city.jpg') no-repeat center 
+    width: 100vw
+    height: 100vh
+    background-size: cover
 
 .pre-header
     position: absolute
