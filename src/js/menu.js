@@ -9,7 +9,8 @@ closeMobileMenu = () => {
 }
 
 openMobileMenu = () => {
-    let height = header.offsetHeight + 15;
+    let height = header.offsetHeight;
+    height = (mobileMenuLink.length > 3) ? height + 15 : height;
     menu.classList.remove('navbar--mobile-close');
     menu.style.transform = 'translateY(' + height + 'px)';
 }

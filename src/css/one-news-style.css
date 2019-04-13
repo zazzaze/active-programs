@@ -63,6 +63,7 @@ background: #ffffff;
 position: absolute;
 top: 0;
 left: 0;
+z-index: 10;
 }
 
 .top .header__logo {
@@ -149,6 +150,7 @@ margin: 0;
         transform: translateY(-100vh);
         margin: 0;
         padding: 0;
+        z-index: 5;
     }
     .navbar--mobile .navbar__point {
         display: block;
