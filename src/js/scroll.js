@@ -16,3 +16,7 @@ $(window).on("scroll", function(){
         $btnTop.fadeOut();
     }
 });
+
+$btnTop.on("click", function(){
+    $("html,body").animate({scrollTop:0}, 900)
+})

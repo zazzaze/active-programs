@@ -40,19 +40,26 @@ body
 .btn-top
     display: none
     position: fixed
-    bottom: 2rem
+    bottom: 3rem
     right: 2rem
     z-index: 100
     border: none
     outline: none
     background-color: black
     color: white
-    padding: 1rem 1rem
+    padding: 0.8rem 1rem
     border-radius: 10px
+    cursor: pointer
+    box-shadow: 0 0 5px  grey
     // transition: all 0.4s ease-in-out
     
     &:hover
         background-color: grey
+
+@media (max-width: 900px)
+    .btn-top
+        bottom: 2rem
+
 
 
 
