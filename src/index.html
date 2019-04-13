@@ -18,7 +18,7 @@
 
 
         <div class="popup">
-            <div class="popup-card" style="display: none">
+            <div class="popup-card popup-card-form">
                 <button class="button button__close">
                     <span class="button__close--line"></span>
                     <span class="button__close--line"></span>
@@ -26,19 +26,19 @@
                 <h2 class="card__headline">Оставьте заявку</h2>
                 <p class="card__text">и мы вам перезвоним.</p>
                 <form class="form" method="POST">
-                    <input class="form__input" type="text" placeholder="Ваше имя">
-                    <input class="form__input" type="email" placeholder="Ваш email">
-                    <input class="form__input" type="tel" placeholder="Ваш номер телефона">
+                    <input class="form__input" type="text" placeholder="Ваше имя" required>
+                    <input class="form__input" type="email" placeholder="Ваш email" required>
+                    <input class="form__input" type="tel" placeholder="Ваш номер телефона" required>
                     <label class="form__checkbox">
-                    <input type="checkbox" name="checkbox">
-                    <a>Даю согласие на обработку персональных данных</a></label>
-                    <button class="button form__button" type="submit">Оставить заявку</button>  
+                    <input type="checkbox" name="checkbox" required>
+                    Даю согласие на обработку персональных данных</label>
+                    <button class="button form__button form__button-submit" type="submit">Оставить заявку</button>  
                 </form>
             </div>
             <div class="popup-card popup-succes">
                 <h2 class="popup-succes__headline">Спасибо</h2>
                 <p class="popup-succes__text">ваша заявка добавлена</p>
-                <button class="button form__button">Отлично</button>
+                <button class="button form__button popup-succes__button">Отлично</button>
             </div>
         </div>
         
