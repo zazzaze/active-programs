@@ -133,7 +133,6 @@ body {
   text-decoration: none;
   font-size: 1rem;
   text-align: center;
-  vertical-align: middle;
   font-family: 'Arimo', sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -285,6 +284,23 @@ body {
   transition: all 0.5s ease-in-out;
 }
 
+.popup-succes {
+  padding: 1rem 1rem;
+  margin: 30vh auto;
+}
+
+.popup-succes__headline {
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.popup-succes__text {
+  border-bottom: 1px solid #AD4582;
+  font-size: 1.2rem;
+  width: 60%;
+  margin: 0 20%;
+}
+
 .card__headline {
   font-size: 2.5rem;
   padding: 1rem;
@@ -401,6 +417,9 @@ body {
 @media (max-width: 320px) {
   .popup-card {
     margin: 5vh 10%;
+  }
+  .popup-succes {
+    margin: 30vh auto;
   }
 }
 
@@ -616,7 +635,7 @@ body {
   font-size: 1.3rem;
   color: #A4A4A4;
   font-family: 'Open Sans';
-  heihgt: auto;
+  height: auto;
   white-space: nowrap;
   overflow: hidden;
   padding: 5px;
