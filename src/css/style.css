@@ -48,6 +48,7 @@ body {
 .btn-top {
   display: none;
   position: fixed;
+  bottom: 2rem;
 }
 
 @media (max-width: 720px) {
