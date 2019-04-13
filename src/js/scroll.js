@@ -10,7 +10,7 @@
 
 var $btnTop = $(".btn-top");
 $(window).on("scroll", function(){
-    if ($(window).srollTop() >= 20){
+    if ($(window).scrollTop() >= 20){
         $btnTop.fadeIn();
     }else{
         $btnTop.fadeOut();

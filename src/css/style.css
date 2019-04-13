@@ -55,7 +55,7 @@ body {
   outline: none;
   background-color: black;
   color: white;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border-radius: 10px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
