@@ -10,10 +10,11 @@
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 13955,
+      "size": 15744,
       "lmtime": 0,
       "modified": true
     },
+    "jquery": {},
     "js": {},
     "news": {},
     "sass": {}
