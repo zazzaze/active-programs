@@ -214,7 +214,7 @@ body {
   background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(0, 0, 0, 0.25)), to(transparent)), url("../images/city.jpg") no-repeat center;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 100%, transparent), url("../images/city.jpg") no-repeat center;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background-size: cover;
 }
 
