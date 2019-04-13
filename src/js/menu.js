@@ -1,14 +1,29 @@
 const menuButton = document.querySelector('.burger'),
     header = document.querySelector('.header');
-let menu = document.querySelector('.navbar--mobile');
+let menu = document.querySelector('.navbar--mobile'),
+    mobileMenuLink = menu.querySelectorAll('.navbar__link');
+
+closeMobileMenu = () => {
+    menu.classList.add('navbar--mobile-close');
+    menu.style.transform = menu.style.transform = 'translateY(-100vh)';
+}
+
+openMobileMenu = () => {
+    let height = header.offsetHeight + 15;
+    menu.classList.remove('navbar--mobile-close');
+    menu.style.transform = 'translateY(' + height + 'px)';
+}
 
 menuButton.addEventListener('click', () => {
-    let height = header.offsetHeight;
     if (menu.classList.contains('navbar--mobile-close')){
-        menu.classList.remove('navbar--mobile-close');
-        menu.style.transform = 'translateY(' + height + 'px)';
+        openMobileMenu();
     } else {
-        menu.classList.add('navbar--mobile-close');
-        menu.style.transform = menu.style.transform = 'translateY(-100vh)';
+        closeMobileMenu();
     }
-})
+});
+
+mobileMenuLink.forEach( (item) => {
+    item.addEventListener('click', () =>{
+        closeMobileMenu();
+    });
+});
